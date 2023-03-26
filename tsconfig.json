@@ -17,6 +17,7 @@
     "outDir": "dist",
     "typeRoots": ["./node_modules/@types", "src/types/*.d.ts"],
     "allowJs": false,
-    "pretty": true
+    "pretty": true,
+    "removeComments": true
   }
 }

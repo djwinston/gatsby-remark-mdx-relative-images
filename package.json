@@ -47,7 +47,7 @@
     "url": "https://github.com/djwinston/gatsby-remark-mdx-relative-images.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://registry.npmjs.org"
   },
   "bugs": {
     "url": "https://github.com/djwinston/gatsby-remark-mdx-relative-images.git/issues"
