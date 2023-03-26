@@ -94,11 +94,11 @@ templateKey: blog-post
 title: Post title
 description: Brewing with a Chemex probably seems like a complicated, time-consuming ordeal, but once you get used to the process, it becomes a soothing ritual that's worth the effort every time.
 date: 2017-01-04T15:04:10.000Z
-postImage: /img/postImage.jpg
+postImage: /uploads/postImage.jpg
 
 ---
 
-![bodyImage](/img/bodyImage.jpg)
+![bodyImage](/uploads/bodyImage.jpg)
 
 ## What is Lorem Ipsum?
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
@@ -106,6 +106,9 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
 Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 ```
+
+ℹ️ Currently images paths from markdown fields will processed (=> /uploads/postImage.jpg) 
+
 graphQl query
 
 ```javascript

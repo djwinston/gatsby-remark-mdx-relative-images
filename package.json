@@ -12,7 +12,11 @@
     "build": "npm run clean && tsc -d",
     "watch": "npm run clean && tsc --watch",
     "clean": "rimraf dist",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "version": "npm run changelog && git add CHANGELOG.md",
+    "postversion": "git push && npm run release",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "release": "conventional-github-releaser -p angular"
   },
   "keywords": [
     "gatsby",
