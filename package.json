@@ -1,6 +1,6 @@
 {
   "name": "gatsby-remark-mdx-relative-images",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Convert image paths for mdx frontmatter fields to be relative to their node's parent directory. This will help gatsby-plugin-image process images. For example, use with NetlifyCMS.",
   "main": "dist/index.js",
   "files": [

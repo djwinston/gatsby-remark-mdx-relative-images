@@ -20,7 +20,7 @@ export const onCreateNode = (
     const mdxVersion = mdxPlugin[0].version.split('.')[0]
 
     try {
-      const directory = Number(mdxVersion) > 3 ? node.internal.contentFilePath : path.dirname(node.fileAbsolutePath)
+      const directory = Number(mdxVersion) > 3 ? path.dirname(node.internal.contentFilePath) : path.dirname(node.fileAbsolutePath)
 
       // Deeply iterate through frontmatter data for absolute paths
       traverse(node.frontmatter).forEach(function (value) {
