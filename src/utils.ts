@@ -11,8 +11,8 @@ export const slash = (path: string): string => {
 
 export const findMatchingFile = (
   src: string,
-  files: GatsbyFile[],
-  options: PluginOptions
+  files: GatsbyPluginNode[],
+  options: GatsbyPluginOptions
 ) => {
   const result = files.find(file => {
     const staticPath = slash(path.join(options.staticFolderName, src));

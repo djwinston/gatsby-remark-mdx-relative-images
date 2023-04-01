@@ -13,14 +13,17 @@ declare global {
     }
     body: string
     frontmatter: MdxFrontmatter
+    fileAbsolutePath: string;
   }
 
-  type GatsbyFile = Node & {
+  type GatsbyPluginNode = Node & {
     absolutePath: string;
     sourceInstanceName: string;
+    name: string;
+    version: string;
   };
 
-  type PluginOptions = {
+  type GatsbyPluginOptions = {
     staticFolderName: string;
     include: string[];
     exclude: string[];
@@ -28,7 +31,7 @@ declare global {
 
   type GatsbyPluginArgs = {
     node: NodeMdx;
-    getNodesByType: (type: string) => GatsbyFile[];
+    getNodesByType: (type: string) => GatsbyPluginNode[];
     actions: Actions;
     reporter: Reporter
   };
