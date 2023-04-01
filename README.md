@@ -1,13 +1,13 @@
 # gatsby-remark-mdx-relative-images
 
-Current plugin works with [gatsby-plugin-mdx v4](https://www.gatsbyjs.com/plugins/gatsby-plugin-mdx) which include node type `Mdx`.</br>
+Current plugin works with [gatsby-plugin-mdx](https://www.gatsbyjs.com/plugins/gatsby-plugin-mdx) which include node type `Mdx`.</br>
 For `gatsby-transformer-remark` with node type `MarkdownRemark` use [gatsby-remark-relative-images](https://www.gatsbyjs.com/plugins/gatsby-remark-relative-images/)
 
 Convert image paths in mdx frontmatter to be relative to their node's parent directory. This will help [gatsby-plugin-image](https://www.gatsbyjs.com/plugins/gatsby-plugin-image) process images for mdx frontmatter. This was built for use with NetlifyCMS.
 
 ## Install
 
-* required [gatsby-plugin-mdx v4](https://www.gatsbyjs.com/plugins/gatsby-plugin-mdx)
+* required [gatsby-plugin-mdx](https://www.gatsbyjs.com/plugins/gatsby-plugin-mdx)
 ```bash
 # yarn
 yarn add gatsby-remark-mdx-relative-images
